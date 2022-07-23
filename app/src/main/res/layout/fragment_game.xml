@@ -147,11 +147,11 @@
         android:layout_margin="16dp"
         app:layout_constraintVertical_chainStyle="spread"
         app:layout_constraintTop_toBottomOf="@id/tv_left_number"
-        app:layout_constraintBottom_toTopOf="@id/progress_bar"
+        app:layout_constraintBottom_toTopOf="@id/right_answers_progress_bar"
         />
 
     <ProgressBar
-        android:id="@+id/progress_bar"
+        android:id="@+id/right_answers_progress_bar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
